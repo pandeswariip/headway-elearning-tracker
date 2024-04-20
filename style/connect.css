@@ -1,0 +1,141 @@
+/* top button starts */
+.button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* padding-left: 5px; */
+    background-color: rgb(247, 247, 247);
+    box-shadow: 2px 2px 1px #eeeeee;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.button-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    /* padding-left: 5px; */
+    background-color: rgb(247, 247, 247);
+    box-shadow: 2px 2px 1px #eeeeee;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+/* top button ends */
+/* connection start */
+.bg {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.p-pic {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.follow {
+    color: rgb(1, 62, 191);
+    border: 3px rgb(1, 62, 191) solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.indi-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    background-color: #FAFAFA;
+    box-shadow: 3px 3px 1px #f4f4f4;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    /* gap: -50px; */
+    /* align-items: center ; */
+}
+
+.indi-profile:hover {
+    box-shadow: 10px 10px 10px #dddddd;
+}
+
+.con-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    gap: 30px;
+    /* margin-bottom: 20px; */
+}
+
+.connection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;
+    */
+    gap: 20px;
+    background-color: #f6f6f6;
+    padding: 30px;
+    max-width: 80%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 4px 4px 1px #f9f9f9;
+    margin-bottom: 30px;
+    margin-left: 10%;
+}
+
+/* connection ends */
+/* play-store start */
+.p-img {
+    max-width: 350px;
+}
+
+.p-icon {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon {
+    display: flex;
+    gap: 30px;
+}
+
+.icon-size {
+    max-width: 180px;
+}
+
+.play-store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* play-store ends */

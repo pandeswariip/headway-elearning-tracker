@@ -1,0 +1,256 @@
+/* track start */
+.Tracking-btn {
+    color: rgb(6, 89, 239);
+    border: 2px solid rgb(6, 89, 239);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Tracking-img {
+    max-width: 180px;
+}
+
+.track {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FBFBFB;
+    box-shadow: 2px 2px 1px #f0f0f0;
+    width: 1100px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    /* margin-left: 200px; */
+    margin-bottom: 30px;
+}
+
+/* track ends */
+/* About Headway Tracker start */
+.head-img {
+    max-width: 700px;
+    align-self: center;
+}
+
+.about-head {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.track-feature {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.headway-track {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 1100px;
+    background-color: #FBFBFB;
+    box-shadow: 2px 2px 1px #f0f0f0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    /* margin-left: 200px; */
+    margin-bottom: 30px;
+}
+
+/* About Headway Tracker ends */
+/* free Courses Start */
+.new-course {
+    background-color: rgb(246, 246, 246);
+    max-width: 90%;
+    padding: 20PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 4px 4px 1px #f9f9f9;
+    margin-bottom: 30px;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.space {
+    width: 15px;
+    height: 40px;
+    background-image: linear-gradient(rgb(6, 89, 239), rgb(1, 62, 191));
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.space-course {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.design {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.c-cards {
+    background-color: #FAFAFA;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 1px #f0f0f0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.c-cards:hover {
+    border: 2.5px solid rgb(6, 89, 239);
+}
+
+.nc-cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.card-img {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nc-img1 {
+    max-width: 270px;
+    max-height: 200px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.nc-img2 {
+    max-width: 270px;
+    max-height: 350px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.nc-logo {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.view-more {
+    border: 2px rgb(1, 62, 191) solid;
+    color: #111111;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.view-more:hover {
+    color: rgb(1, 62, 191);
+}
+
+/* free Courses end */
+/* play-store start */
+.p-img {
+    max-width: 350px;
+}
+
+.p-icon {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon {
+    display: flex;
+    gap: 30px;
+}
+
+.icon-size {
+    max-width: 180px;
+}
+
+.play-store {
+    display: flex;
+}
+
+/* play-store ends */
+/* to align center all contents */
+.all-tracking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* to align center all contents */
