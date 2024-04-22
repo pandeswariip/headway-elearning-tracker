@@ -112,6 +112,9 @@ img {
 
 /* Common settings ends */
 /* top navigation start */
+.hamburger{
+    display: none;
+}
 .top-nav {
     display: flex;
     justify-content: space-between;
